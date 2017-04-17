@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WaterEvent</title>
+</head>
+
+<body>
+    <h1> Enter the waterevent </h1>
+    <form action="" method="post" align="center">
+        {% csrf_token %}
+            {% for field in form %}
+            <div class="form-group">
+                {{field.label_tag}}
+            </div>
+            {{field}}
+            {% endfor %}
+       </p> <button type="submit"> </p> submit </button>
+    </form>
+
+</body>
+</html>

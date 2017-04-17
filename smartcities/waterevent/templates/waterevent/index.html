@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+   <div class="jumbotron text-center">
+        <h1> Event Application</h1>
+        <p> List of Event</p>
+   </div>
+
+   <!-- button for adding event -->
+    <a href="{% url 'add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        add location</a>
+
+
+        {% for x in tian %}
+        <h3> <a href="{% url 'detail' x.id %}"> {{x.type}} </a></h3>
+
+        {% endfor %}
+
+</body>
+</html>
