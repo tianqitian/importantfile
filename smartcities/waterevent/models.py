@@ -16,7 +16,12 @@ class Event(models.Model):
     #locationId=models.ForeignKey(Location,on_delete=models.CASCADE)
 
     def get_absolute_url(self):
-        return reverse("index")
+        return reverse("index", kwargs={'pk': self.pk})
 
     def __str__(self):
-        return self.eventId
+        return self.type
+
+    class Meta:
+        managed = False
+        db_table = 'Event'
+        app_label = 'event'

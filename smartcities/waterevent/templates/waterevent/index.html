@@ -16,9 +16,8 @@
         add location</a>
 
 
-        {% for x in tian %}
-   <h3> <a href="{% url 'detail' x.id %}"> {{x.type}} {{x.date}} </a></h3>
-
+      {% for x in events %}
+           <h3> <a href="{% url 'detail' x.eventId %}"> {{x.type}} {{x.date}} </a></h3>
         {% endfor %}
 
 </body>

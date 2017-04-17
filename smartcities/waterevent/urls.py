@@ -21,8 +21,8 @@ from. import views
 
 urlpatterns = [
     url(r'^$', views.index, name="index"),
-    url(r'^add-event',views.EventCreate.as_view(),name="add-event"),
-    url(r'^detail/(?P<event_id>[0-9]+)/$',views.detail,name="detail"),
+    url(r'^add-event',views.Event_create,name="add-event"),
+    url(r'^detail/(?P<pk>[0-9]+)/$',views.detail,name="detail"),
     url(r'^detail/update/(?P<pk>[0-9]+)/$',views.EventUpdate.as_view(),name="detail-update"),
     url(r'^detail/delete/(?P<pk>[0-9]+)/$', views.EventDelete.as_view(), name="detail-delete"),
 ]
