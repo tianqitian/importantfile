@@ -21,23 +21,24 @@
     </div>
     <div class="row">
 
-    <!--Detail view-->
-    <div class="container-fluid">
-        <div class="page-header text-center">
-          <h1>{{ event.type }}</h1>
-          <h1> {{event.description}}</h1>
-        </div></div>
+        <!--Detail view-->
+        <div class="container-fluid">
+            <div class="page-header text-center">
+              <h1>{{ event.type }}</h1>
+              <h1> {{event.description}}</h1>
+            </div>
 
-        <h3><a href="{% url 'detail-update' event.id %}"> Update Event</a></h3>
+            <h3><a href="{% url 'detail-update' event.id %}"> Update Event</a></h3>
 
-        <!--- delete -->
-        <form method = "POST" action = "{% url 'detail-delete' event.id %}">
-            {% csrf_token %}
-            <input type="submit" value="Delete Event">
+            <!--- delete -->
+            <form method = "POST" action = "{% url 'detail-delete' event.id %}">
+                {% csrf_token %}
+                <input type="submit" value="Delete Event">
 
-        </form>
+            </form>
 
-
+            <h3> <a href="{% url 'index' %}" type = "submit"> Home page</a></h3>
+        </div>
     </div>
 
 </body>
