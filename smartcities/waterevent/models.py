@@ -9,7 +9,7 @@ class Location(models.Model):
     locLongitude=models.CharField(max_length=5)
 
 class Event(models.Model):
-    eventId=models.CharField(max_length=5)
+    eventId=models.CharField(max_length=5,primary_key = True)
     description=models.CharField(max_length=500)
     type=models.CharField(max_length=20)
     date=models.CharField(max_length=10)

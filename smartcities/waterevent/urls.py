@@ -22,7 +22,7 @@ from. import views
 urlpatterns = [
     url(r'^$', views.index, name="index"),
     url(r'^add-event',views.Event_create,name="add-event"),
-    url(r'^detail/(?P<pk>[0-9]+)/$',views.detail,name="detail"),
-    url(r'^detail/update/(?P<pk>[0-9]+)/$',views.EventUpdate.as_view(),name="detail-update"),
-    url(r'^detail/delete/(?P<pk>[0-9]+)/$', views.EventDelete.as_view(), name="detail-delete"),
+    url(r'^detail/(?P<pk>\d+)',views.detail,name="detail"),
+    url(r'^update/(?P<pk>\d+)$', views.EventUpdate, name="detail-update"),
+    url(r'^delete/(?P<pk>\d+)$', views.EventDelete, name="detail-delete"),
 ]

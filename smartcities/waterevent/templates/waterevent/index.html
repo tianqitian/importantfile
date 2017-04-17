@@ -11,13 +11,13 @@
    </div>
 
    <!-- button for adding event -->
-    <a href="{% url 'add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
+    <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
         add location</a>
 
 
       {% for x in events %}
-           <h3> <a href="{% url 'detail' x.eventId %}"> {{x.type}} {{x.date}} </a></h3>
+           <h3> <a href="{% url 'waterevent:detail' x.eventId %}"> {{x.type}} {{x.date}} </a></h3>
         {% endfor %}
 
 </body>
