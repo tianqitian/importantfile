@@ -5,12 +5,9 @@
     <title>detail</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 
 </head>
 
@@ -25,20 +22,38 @@
         <div class="container-fluid">
             <div class="page-header text-center">
               <h1>{{ events.type }}</h1>
-              <h1> {{events.description}}</h1>
+              <h1> {{events.description}}<small></small></h1>
             </div>
 
+            <!--- update -->
             <h3><a href="{% url 'waterevent:detail-update' events.eventId %}"> Update Event</a></h3>
 
             <!--- delete -->
             <form method = "POST" action = "{% url 'waterevent:detail-delete' events.eventId %}">
                 {% csrf_token %}
                 <input type="submit" value="Delete Event">
-
             </form>
 
             <h3> <a href="{% url 'waterevent:index' %}" type = "submit"> Home page</a></h3>
         </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+
+        </div>
+
+        <!--Image-->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            Here is the image
+
+        </div>
+
+        <!--Map-->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+            Here is the map
+            <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Watershed Management" src="//www.arcgis.com/apps/Embed/index.html?webmap=5a32e76dca6549b9b4d9ba7ac0e52f22&amp;extent=-80.1426,37.7691,-74.3857,39.7732&amp;zoom=true&amp;scale=true&amp;disable_scroll=true&amp;theme=light"></iframe></div>
+        </div>
+
+
     </div>
 
 </body>

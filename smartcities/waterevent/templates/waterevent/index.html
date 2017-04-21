@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
+
+      <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
    <div class="jumbotron text-center">
@@ -10,15 +19,21 @@
         <p> List of Event</p>
    </div>
 
-   <!-- button for adding event -->
-    <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
-        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-        add location</a>
+   <div class="container-fluid text-center">
+        <div class="list-group">
+        {% for x in events %}
+            <a href="{% url 'waterevent:detail' x.eventId %}" class="list-group-item" > {{x.type}} {{x.date}} </a>
+            <!--- update -->
+            <a href="{% url 'waterevent:detail-update' x.eventId %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Update Event</a>
 
-
-      {% for x in events %}
-           <h3> <a href="{% url 'waterevent:detail' x.eventId %}"> {{x.type}} {{x.date}} </a></h3>
         {% endfor %}
 
+        </div>
+
+       <!-- button for adding event -->
+        <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            add location</a>
+   </div>
 </body>
 </html>
