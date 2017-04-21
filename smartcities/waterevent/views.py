@@ -15,6 +15,11 @@ class EventCreate(ModelForm):
     class Meta:
         model = Event
         fields =['eventId','description','type','date']
+        labels={
+            'eventId':'ID of the event',
+            'description':'description of the event',
+            'type': 'type of the event',
+        }
 
 def Event_create(request, template_name='waterevent/event_form.html'):
     form = EventCreate(request.POST or None)
