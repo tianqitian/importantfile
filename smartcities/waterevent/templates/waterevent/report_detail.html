@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Waterevent Application</h1>
+        <p>Detail view</p>
+    </div>
+
+    <div class="row">
+        <!--Detail view-->
+        <div class="container-fluid">
+            <div class="page-header text-center">
+                {{ report.observName }}
+            </div>
+
+            <!--- update
+            <h3 align="center"><a href="{% url 'waterevent:detail-update' events.eventId %}"> Update Event</a>
+            &nbsp;&nbsp;
+            -->
+        </div>
+
+    </div>
+
+</body>
+</html>

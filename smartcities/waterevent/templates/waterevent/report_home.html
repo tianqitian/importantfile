@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+      <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+   <div class="jumbotron text-center">
+        <h1> Report Record</h1>
+        <p> List of Report</p>
+   </div>
+
+   <div class="container-fluid text-center">
+       {% if report %}
+        <div class="list-group">
+        {% for r in report %}
+            <a href="{% url 'waterevent:report-detail' r.observId %}" class="list-group-item list-group-item-success col-sm-8" >{{r.date}} {{r.observName}}</a>
+            <p></p>
+
+             <a href="{% url 'waterevent:report-update' r.observId %}" class="btn btn-primary" role="button" aria-pressed="true"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Update Report</a>
+        {% endfor %}
+        </div>
+       {% else %}
+            <h2> you have no report</h2>
+        {% endif %}
+
+
+       <a href="{% url 'waterevent:add-report' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            Record report</a>
+   </div>
+</body>
+</html>
