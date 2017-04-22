@@ -25,6 +25,6 @@ urlpatterns = [
     url(r'^event',views.EventList,name="eventlist"),
     url(r'^add-event',views.Event_create,name="add-event"),
     url(r'^detail/(?P<pk>\d+)',views.detail,name="detail"),
-    url(r'^update/(?P<pk>\d+)$', views.EventUpdate, name="detail-update"),
-    url(r'^delete/(?P<pk>\d+)$', views.EventDelete, name="detail-delete"),
+    url(r'^event-update/(?P<pk>\d+)$', views.EventUpdate, name="detail-update"),
+    url(r'^event-delete/(?P<pk>\d+)$', views.EventDelete, name="detail-delete"),
 ]

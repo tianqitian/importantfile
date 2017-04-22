@@ -21,14 +21,19 @@
         <!--Detail view-->
         <div class="container-fluid">
             <div class="page-header text-center">
-              <h1>{{ events.type }}</h1>
-              <h1> {{events.description}}<small></small></h1>
+                <h2> <b>Type:</b>  &nbsp; {{ events.type }}</h2>
+                <h2> <b>Description:</b>  &nbsp;{{events.description}}<small></small></h2>
+                <h2> <b>Date:</b> &nbsp;{{events.date}}<small></small></h2>
+
             </div>
 
             <!--- update -->
-            <h3><a href="{% url 'waterevent:detail-update' events.eventId %}"> Update Event</a></h3>
+            <a href="{% url 'waterevent:detail-update' events.eventId %}"> Update Event</a>
 
             <!--- delete -->
+            <a href="{% url 'waterevent:detail-delete' events.eventId %}"> Delete Event</a>
+            &nbsp;&nbsp;
+
             <form method = "POST" action = "{% url 'waterevent:detail-delete' events.eventId %}">
                 {% csrf_token %}
                 <input type="submit" value="Delete Event">

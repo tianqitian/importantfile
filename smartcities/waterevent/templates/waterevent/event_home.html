@@ -22,14 +22,13 @@
             <a href="{% url 'waterevent:detail' x.eventId %}" class="list-group-item" > {{x.type}} {{x.date}} </a>
             <!--- update -->
             <a href="{% url 'waterevent:detail-update' x.eventId %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Update Event</a>
-
         {% endfor %}
 
         </div>
        <!-- button for adding event -->
         <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
             <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-            add location</a>
+            add event</a>
    </div>
 
 </body>
