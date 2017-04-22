@@ -31,5 +31,7 @@ urlpatterns = [
     url(r'^report',views.ViewReportList, name="view-reportlist"),
     url(r'^add-report', views.Report_create, name="add-report"),
     url(r'^report-detail/(?P<pk>\d+)$', views.ReportDetail, name="report-detail"),
+
+    #url(r'^report-detail/(?P<pk>\d+)$', views.ReportDetail, name="report-detail"),
     url(r'^report-update/(?P<pk>\d+)$', views.ReportUpdate, name="report-update"),
 ]

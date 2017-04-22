@@ -33,7 +33,7 @@ class ObservReport(models.Model):
     overflow = models.BooleanField(max_length=20)
 
     def _get_absolute_url(self):
-        return reverse("report-update",kwargs ={'pk':self.pk})
+        return reverse("view-reportlist",kwargs ={'pk':self.pk})
 
     def __str__(self):
         return self.type

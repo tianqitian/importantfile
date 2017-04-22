@@ -129,13 +129,12 @@ def ReportDetail(request, pk):
     return render(request, 'waterevent/report_detail.html', context)
 
 '''update'''
-def ReportUpdate(request,pk, template_name='waterevent/report_detail.html'):
+def ReportUpdate(request,pk, template_name='waterevent/report_form.html'):
     report = get_object_or_404(ObservReport, pk=pk)
     form = ReportCreate(request.POST or None, instance = report)
     if form.is_valid():
         form.save()
-        return redirect('waterevent:view-reportlist')
+        return redirect('waterevent:report-home')
     ctx = {}
     ctx["form"] = form
-    ctx["report"]=report
     return render(request, template_name, ctx)

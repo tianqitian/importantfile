@@ -26,7 +26,7 @@
             <a href="{% url 'waterevent:report-detail' r.observId %}" class="list-group-item list-group-item-success col-sm-8" >{{r.date}} {{r.observName}}</a>
             <p></p>
 
-             <a href="{% url 'waterevent:report-update' r.observId %}" class="btn btn-primary" role="button" aria-pressed="true">Update Report</a>
+             <a href="{% url 'waterevent:report-update' r.observId %}" class="btn btn-primary" role="button" aria-pressed="true"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Update Report</a>
         {% endfor %}
         </div>
        {% else %}
