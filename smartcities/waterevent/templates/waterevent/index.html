@@ -19,21 +19,9 @@
         <p> List of Event</p>
    </div>
 
-   <div class="container-fluid text-center">
-        <div class="list-group">
-        {% for x in events %}
-            <a href="{% url 'waterevent:detail' x.eventId %}" class="list-group-item" > {{x.type}} {{x.date}} </a>
-            <!--- update -->
-            <a href="{% url 'waterevent:detail-update' x.eventId %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Update Event</a>
+   <a href="{% url 'waterevent:eventlist' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check event </a>
 
-        {% endfor %}
 
-        </div>
 
-       <!-- button for adding event -->
-        <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
-            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-            add location</a>
-   </div>
 </body>
 </html>

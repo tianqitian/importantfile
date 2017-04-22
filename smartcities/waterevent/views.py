@@ -4,12 +4,15 @@ from django.core.urlresolvers import reverse_lazy
 from .models import Location, Event
 from django.forms import ModelForm
 # Create your views here.
+
+
 def index(request):
+    return render(request, 'waterevent/index.html')
+
+def EventList(request):
     events = Event.objects.all()
     context = {'events':events}
-    return render(request, 'waterevent/index.html',context)
-
-
+    return render(request, 'waterevent/event_home.html',context)
 
 class EventCreate(ModelForm):
     class Meta:

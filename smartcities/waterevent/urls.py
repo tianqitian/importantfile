@@ -21,6 +21,8 @@ from. import views
 
 urlpatterns = [
     url(r'^$', views.index, name="index"),
+
+    url(r'^event',views.EventList,name="eventlist"),
     url(r'^add-event',views.Event_create,name="add-event"),
     url(r'^detail/(?P<pk>\d+)',views.detail,name="detail"),
     url(r'^update/(?P<pk>\d+)$', views.EventUpdate, name="detail-update"),
