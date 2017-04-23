@@ -52,26 +52,12 @@ def EventUpdate(request,pk, template_name='waterevent/event_form.html'):
     ctx["form"] = form
     return render(request, template_name, ctx)
 
-
-def EventUpdatelist(request,pk, template_name='waterevent/event_home.html'):
-    events = get_object_or_404(Event, pk=pk)
-    form = EventCreate(request.POST or None, instance = events)
-    if form.is_valid():
-        form.save()
-        return redirect('waterevent:view-eventlist')
-    ctx = {}
-    ctx["form"] = form
-    return render(request, template_name, ctx)
-
-def EventDelete(request,pk, template_name='waterevent/detail-delete.html'):
+def EventDelete(request,pk, template_name='waterevent/detail.html'):
     events = get_object_or_404(Event, pk=pk)
     if request.method == 'POST':
         events.delete()
         return redirect('waterevent:eventlist')
-    ctx = {}
-    ctx["object"] = events
-    ctx["book"] = events
-    return render(request, template_name,ctx)
+    return render(request, template_name,{'object':events})
 
 def EventListDelete(request,pk, template_name='waterevent/event_home.html'):
     events = get_object_or_404(Event, pk=pk)

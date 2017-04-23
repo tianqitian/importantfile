@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="476">
+              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding>
                 <element signature="e#645#677#0" expanded="true" />
               </folding>
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+            <state relative-caret-position="323">
+              <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -69,16 +69,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smartcities/smartcities/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,6 +88,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,18 +154,18 @@
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_form.html" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/models.py" />
-        <option value="$PROJECT_DIR$/smartcities/waterevent/urls.py" />
-        <option value="$PROJECT_DIR$/smartcities/waterevent/views.py" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/index.html" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_home.html" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/report_home.html" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/map.html" />
+        <option value="$PROJECT_DIR$/smartcities/waterevent/views.py" />
+        <option value="$PROJECT_DIR$/smartcities/waterevent/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="502" />
-    <option name="y" value="-49" />
+    <option name="y" value="-2" />
     <option name="width" value="862" />
     <option name="height" value="778" />
   </component>
@@ -438,7 +438,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="-49" width="862" height="778" extended-state="0" />
+    <frame x="502" y="-2" width="862" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22694175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -779,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -809,16 +801,6 @@
           <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#645#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -875,12 +857,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+        <state relative-caret-position="323">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
