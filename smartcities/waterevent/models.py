@@ -25,3 +25,20 @@ class Event(models.Model):
         managed = False
         db_table = 'Event'
         app_label = 'event'
+
+class ObservReport(models.Model):
+    observId = models.CharField(max_length=5,primary_key = True)
+    date = models.DateField(max_length=10)
+    observName = models.CharField(max_length=20)
+    overflow = models.BooleanField(max_length=20)
+
+    def _get_absolute_url(self):
+        return reverse("view-reportlist",kwargs ={'pk':self.pk})
+
+    def __str__(self):
+        return self.type
+
+    class Meta:
+        managed = False
+        db_table = 'ObservReport'
+        app_label = 'report'

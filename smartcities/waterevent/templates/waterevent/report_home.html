@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <title>Login Page</title>
+
+      <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="jumbotron text-center">
+        <h1> Report Record</h1>
+        <p> List of Report</p>
+     </div>
+
+    <div class="container-fluid text-center">
+           {% if report %}
+            <div class="list-group">
+            {% for r in report %}
+               {{r.date}} {{r.observName}}
+                <p></p>
+                 {% endfor %}
+            </div>
+           {% else %}
+                <h2> you have no report</h2>
+            {% endif %}
+    </div>
+    <a href="{% url 'waterevent:index' %}" class="btn btn-success btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a>
+
+</body>
+</html>

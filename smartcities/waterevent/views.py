@@ -1,13 +1,22 @@
 from django.shortcuts import render,redirect, get_object_or_404
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse_lazy
-from .models import Location, Event
+from .models import Location, Event, ObservReport
 from django.forms import ModelForm
 # Create your views here.
 
 
 def index(request):
     return render(request, 'waterevent/index.html')
+
+
+def map(request):
+    return render(request, 'waterevent/map.html')
+
+def report(request):
+    report = ObservReport.objects.all()
+    context = {'report': report}
+    return render(request, 'waterevent/report_home.html', context)
 
 def EventList(request):
     events = Event.objects.all()
@@ -54,7 +63,7 @@ def EventUpdatelist(request,pk, template_name='waterevent/event_home.html'):
     ctx["form"] = form
     return render(request, template_name, ctx)
 
-def EventDelete(request,pk, template_name='waterevent/detail.html'):
+def EventDelete(request,pk, template_name='waterevent/detail-delete.html'):
     events = get_object_or_404(Event, pk=pk)
     if request.method == 'POST':
         events.delete()

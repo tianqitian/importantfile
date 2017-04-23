@@ -5,6 +5,7 @@
     <title>Login Page</title>
 
       <!-- Bootstrap -->
+ <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,16 +20,19 @@
    <div class="container-fluid text-center">
         <div class="list-group">
         {% for x in events %}
-            <a href="{% url 'waterevent:detail' x.eventId %}" class="list-group-item" > {{x.type}} {{x.date}} </a>
+            <a href="{% url 'waterevent:detail' x.eventId %}" class="list-group-item list-group-item-success col-sm-8"> {{x.type}} {{x.date}} </a>
             <!--- update -->
-            <a href="{% url 'waterevent:detail-update' x.eventId %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Update Event</a>
+            <a href="{% url 'waterevent:detail-update' x.eventId %}" class="btn btn-primary" role="button" aria-pressed="true"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>Update Event</a>
+            <div class="col-xs-12"><hr></div>
+            <p></p>
         {% endfor %}
-
         </div>
        <!-- button for adding event -->
-        <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
+        <a href="{% url 'waterevent:add-event' %}" class="btn btn-success" role="button">
             <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
             add event</a>
+       <a href="{% url 'waterevent:index' %}" class="btn btn-success" role="button" aria-pressed="true">Home Page </a>
+
    </div>
 
 </body>
