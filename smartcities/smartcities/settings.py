@@ -74,6 +74,8 @@ WSGI_APPLICATION = 'smartcities.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
+# ===============================  old database =======================================
+#'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -84,8 +86,21 @@ DATABASES = {
         'PORT':'3306',
     }
 }
+#'''
 
-
+##================================== new AWS database =======================================
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+         'NAME': 'stormwater',
+        'USER': 'bpasmartcity1',
+        'PASSWORD': 'pass1234',
+        'HOST':'smartcity1.cwir7vtofu6m.us-west-2.rds.amazonaws.com',
+        'PORT':'3306',
+    }
+}
+'''
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
 
