@@ -32,7 +32,6 @@ class ObservReport(models.Model):
     observName = models.CharField(max_length=20)
     overflow = models.BooleanField(max_length=20)
 
-
     def _get_absolute_url(self):
         return reverse("view-reportlist",kwargs ={'pk':self.pk})
 
@@ -43,22 +42,3 @@ class ObservReport(models.Model):
         managed = False
         db_table = 'ObservReport'
         app_label = 'report'
-
-        class Sensor(models.Model):
-            sensorId = models.CharField(max_length=5, primary_key=True)
-            volume = models.FloatField(max_length=10)
-            phLevel = models.IntegerField(max_length=5)
-            contaminantLevel = models.FloatField(max_length=10)
-            date = models.DateField(max_length=10)
-            observId = models.ForeignKey(ObservReport)
-
-            def _get_absolute_url(self):
-                return reverse("view-sensorlist", kwargs={'pk': self.pk})
-
-            def __str__(self):
-                return self.type
-
-            class Meta:
-                managed = False
-                db_table = 'Sensor'
-                app_label = 'sensor'
