@@ -136,7 +136,7 @@ def Report_Update(request, pk, template_name='waterevent/report_form.html'):
     return render(request, template_name, ctx)
 
 
-def Report_Delete(request, pk, template_name='waterevent/detail.html'):
+def Report_Delete(request, pk, template_name='waterevent/report/detail.html'):
     reports = get_object_or_404(ObservReport, pk=pk)
     if request.method == 'POST':
         reports.delete()
