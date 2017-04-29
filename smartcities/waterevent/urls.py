@@ -30,4 +30,5 @@ urlpatterns = [
 
     url(r'^map',views.map, name="map"),
     url(r'^report',views.report, name="report"),
+    url(r'^sensor',views.sensor, name="sensor"),
 ]

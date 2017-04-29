@@ -23,6 +23,11 @@ def EventList(request):
     context = {'events':events}
     return render(request, 'waterevent/event_home.html',context)
 
+def SensorList(request):
+    sensors= Sensor.objects.all()
+    context = {'sensors': sensorss}
+
+    return render(request, 'waterevent/sensor_home.html', context)
 class EventCreate(ModelForm):
     class Meta:
         model = Event
