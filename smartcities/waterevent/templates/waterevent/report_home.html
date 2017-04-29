@@ -10,14 +10,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
+
 <body>
 
-    <div class="jumbotron text-center">
-        <h1> Report Record</h1>
-        <p> List of Report</p>
+    <div style="background-image: url('http://www.news1130.com/wp-content/blogs.dir/sites/9/2016/11/29/pipelines-3-e1480465756659.jpg'); background-size: cover;" class="jumbotron text-center">
+        <br><br><h1 style="text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;"> <strong>Reports</strong></h1>
      </div>
 
     <div class="container-fluid text-center">
+<<<<<<< HEAD
+        <div class="list-group">
+
+        {% for x in report %}
+            <a href="{% url 'waterevent:report_detail' x.observId %}" class="list-group-item list-group-item-success col-sm-8"> {{x.type}} {{x.date}} </a>
+            <!--- update -->
+            <a href="{% url 'waterevent:report_detail-update' x.observId %}" class="btn btn-primary" role="button" aria-pressed="true"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>Update Report</a>
+            <div class="col-xs-12"><hr></div>
+            <p></p>
+        {% endfor %}
+        </div>
+    <a href="{% url 'waterevent:index' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a>
+<!-- button for adding report -->
+   <a href="{% url 'waterevent:add-report' %}" class="btn btn-success" role="button">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    Add observation report</a>
+
+=======
            {% if report %}
             <div class="list-group">
             {% for r in report %}
@@ -29,7 +48,8 @@
                 <h2> you have no report</h2>
             {% endif %}
     </div>
-    <a href="{% url 'waterevent:index' %}" class="btn btn-success btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a>
+    <a href="{% url 'waterevent:index' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a>
+>>>>>>> origin/master
 
 </body>
 </html>

@@ -14,14 +14,15 @@
 
 </head>
 <body>
-   <div class="jumbotron text-center">
-        <h1> Store Water Checking System</h1>
-        <p> Welcome to the system</p>
+   <div style="background-image: url('http://www.news1130.com/wp-content/blogs.dir/sites/9/2016/11/29/pipelines-3-e1480465756659.jpg'); background-size: cover;" class="jumbotron text-center">
+        <br><br><h1 style="text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;"> <strong>Storm Water</strong></h1>
+       <h1 style="text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;"> <strong>Management System</strong></h1>
    </div>
 
    <a href="{% url 'waterevent:eventlist' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check event </a>
- <a href="{% url 'waterevent:map' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check map </a>
- <a href="{% url 'waterevent:report' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check report </a>
+   <a href="{% url 'waterevent:map' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check map </a>
+   <a href="{% url 'waterevent:reportlist' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check report </a>
+
 
 
 

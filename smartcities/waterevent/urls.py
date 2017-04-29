@@ -29,5 +29,12 @@ urlpatterns = [
     url(r'^delete/(?P<pk>\d+)$', views.EventDelete, name="detail-delete"),
 
     url(r'^map',views.map, name="map"),
-    url(r'^report',views.report, name="report"),
+
+
+    url(r'^report', views.ReportList, name="reportlist"),
+    url(r'^add-report', views.Report_create, name="add-report"),
+    url(r'^report/detail/(?P<pk>\d+)', views.report_detail, name="report_detail"),
+    url(r'^report/update/(?P<pk>\d+)$', views.Report_Update, name="report_detail-update"),
+    url(r'^report/delete/(?P<pk>\d+)$', views.Report_Delete, name="report_detail-delete"),
+
 ]
