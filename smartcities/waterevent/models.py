@@ -24,7 +24,7 @@ class Event(models.Model):
     class Meta:
         managed = False
         db_table = 'Event'
-<<<<<<< HEAD
+
         app_label = 'event'
 
 class ObservReport(models.Model):
@@ -43,6 +43,6 @@ class ObservReport(models.Model):
         managed = False
         db_table = 'ObservReport'
         app_label = 'report'
-=======
+
         app_label = 'event'
->>>>>>> parent of a2cd370... second form
+

@@ -1,17 +1,17 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse_lazy
-<<<<<<< HEAD
+
 from .models import Location, Event, ObservReport
-=======
+
 from .models import Location, Event
->>>>>>> parent of a2cd370... second form
+
 from django.forms import ModelForm
 
 
 # Create your views here.
 def index(request):
-<<<<<<< HEAD
+
     return render(request, 'waterevent/index.html')
 
 def map(request):
@@ -21,12 +21,12 @@ def EventList(request):
     events = Event.objects.all()
     context = {'events': events}
     return render(request, 'waterevent/event_home.html', context)
-=======
+
     events = Event.objects.all()
     context = {'events':events}
     return render(request, 'waterevent/index.html',context)
 
->>>>>>> parent of a2cd370... second form
+
 
 
 class EventCreate(ModelForm):
@@ -55,16 +55,15 @@ def EventUpdate(request, pk, template_name='waterevent/event_form.html'):
     form = EventCreate(request.POST or None, instance=events)
     if form.is_valid():
         form.save()
-<<<<<<< HEAD
+
         return redirect('waterevent:eventlist')
-=======
+
         return redirect('waterevent:index')
->>>>>>> parent of a2cd370... second form
+
     ctx = {}
     ctx["form"] = form
     return render(request, template_name, ctx)
 
-<<<<<<< HEAD
 
 def EventDelete(request, pk, template_name='waterevent/detail.html'):
     events = get_object_or_404(Event, pk=pk)
@@ -81,14 +80,13 @@ def EventListDelete(request, pk, template_name='waterevent/event_home.html'):
         return redirect('waterevent:eventlist')
     return render(request, template_name, {'object': events})
 
-=======
+
 def EventDelete(request,pk, template_name='waterevent/detail.html'):
     events = get_object_or_404(Event, pk=pk)
     if request.method == 'POST':
         events.delete()
         return redirect('waterevent:index')
     return render(request, template_name,{'object':events})
->>>>>>> parent of a2cd370... second form
 
 def detail(request, pk):
     events = get_object_or_404(Event, pk=pk)
@@ -109,7 +107,7 @@ class EventDelete (DeleteView):
 
 
 def EventView(request, eventId):
-<<<<<<< HEAD
+
     event = get_object_or_404(Event, pk=eventId)
     context = {'event': event}
     return render(request, 'waterevent/detail.html', context)
@@ -189,8 +187,7 @@ def ReportView(request, observId):
     reports = get_object_or_404(ObservReport, pk=observId)
     context = {'report': reports}
     return render(request, 'waterevent/report_detail.html', context)
-=======
+
     event = get_object_or_404(Event, pk = eventId)
     context = {'event':event}
     return render(request, 'waterevent/detail.html', context)
->>>>>>> parent of a2cd370... second form
