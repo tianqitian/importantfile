@@ -21,12 +21,16 @@ from. import views
 
 urlpatterns = [
     url(r'^$', views.index, name="index"),
+<<<<<<< HEAD
 
     url(r'^event',views.EventList,name="eventlist"),
+=======
+>>>>>>> parent of a2cd370... second form
     url(r'^add-event',views.Event_create,name="add-event"),
     url(r'^detail/(?P<pk>\d+)',views.detail,name="detail"),
     url(r'^update/(?P<pk>\d+)$', views.EventUpdate, name="detail-update"),
     url(r'^delete/(?P<pk>\d+)$', views.EventDelete, name="detail-delete"),
+<<<<<<< HEAD
 
     url(r'^map',views.map, name="map"),
 
@@ -37,4 +41,6 @@ urlpatterns = [
     url(r'^report/update/(?P<pk>\d+)$', views.Report_Update, name="report_detail-update"),
     url(r'^report/delete/(?P<pk>\d+)$', views.Report_Delete, name="report_detail-delete"),
 
+=======
+>>>>>>> parent of a2cd370... second form
 ]

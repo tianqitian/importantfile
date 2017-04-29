@@ -30,6 +30,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <state relative-caret-position="442">
 <<<<<<< Updated upstream
@@ -70,6 +71,10 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="374">
+              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+>>>>>>> parent of a2cd370... second form
               <folding>
                 <element signature="e#645#677#0" expanded="true" />
               </folding>
@@ -78,6 +83,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="report_home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/report_home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,6 +94,13 @@
             <state relative-caret-position="850">
               <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
 >>>>>>> origin/master
+=======
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+>>>>>>> parent of a2cd370... second form
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -95,6 +108,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="report_detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/report_detail.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,11 +153,19 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> parent of a2cd370... second form
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/map.html">
@@ -181,6 +203,13 @@
               <caret line="28" column="64" lean-forward="false" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+>>>>>>> parent of a2cd370... second form
               <folding />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
@@ -189,11 +218,19 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="event_home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+=======
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/smartcities/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+>>>>>>> parent of a2cd370... second form
               <folding />
 =======
       <file leaf-file-name="report_home.html" pinned="false" current-in-tab="true">
@@ -210,6 +247,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
@@ -259,6 +297,13 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+>>>>>>> parent of a2cd370... second form
               <folding />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
@@ -266,9 +311,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/models.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/smartcities/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
             <state relative-caret-position="476">
@@ -317,10 +363,16 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="459">
+              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding />
+>>>>>>> parent of a2cd370... second form
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -348,6 +400,16 @@
             <state relative-caret-position="391">
               <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding />
+=======
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+>>>>>>> parent of a2cd370... second form
             </state>
           </provider>
         </entry>
@@ -390,6 +452,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
       <file leaf-file-name="event_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_form.html">
@@ -397,6 +460,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+=======
+      <file leaf-file-name="event_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+>>>>>>> parent of a2cd370... second form
               <folding />
             </state>
           </provider>
@@ -435,8 +505,11 @@
         <option value="$PROJECT_DIR$/smartcities/waterevent/admin.py" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event.html" />
         <option value="$PROJECT_DIR$/smartcities/smartcities/settings.py" />
+        <option value="$PROJECT_DIR$/smartcities/waterevent/models.py" />
         <option value="$PROJECT_DIR$/smartcities/smartcities/urls.py" />
+        <option value="$PROJECT_DIR$/smartcities/waterevent/urls.py" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_form.html" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html" />
         <option value="$PROJECT_DIR$/smartcities/waterevent/models.py" />
@@ -476,6 +549,10 @@
 =======
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
+=======
+        <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/index.html" />
+        <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html" />
+>>>>>>> parent of a2cd370... second form
         <option value="$PROJECT_DIR$/smartcities/waterevent/views.py" />
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/index.html" />
@@ -491,6 +568,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
     <option name="x" value="28" />
@@ -566,6 +644,12 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+>>>>>>> parent of a2cd370... second form
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -722,6 +806,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 =======
@@ -735,6 +820,9 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> parent of a2cd370... second form
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
   </component>
@@ -888,6 +976,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
     <frame x="28" y="2" width="1366" height="768" extended-state="0" />
@@ -947,6 +1036,12 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> parent of a2cd370... second form
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -973,17 +1068,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/apps.py">
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/__init__.py">
+>>>>>>> parent of a2cd370... second form
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+>>>>>>> parent of a2cd370... second form
           <folding>
             <element signature="e#645#677#0" expanded="true" />
           </folding>
@@ -992,10 +1122,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="476">
           <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
+=======
+        <state relative-caret-position="187">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+>>>>>>> parent of a2cd370... second form
           </folding>
         </state>
       </provider>
@@ -1274,7 +1411,18 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/smartcities/smartcities/settings.py">
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/views/generic/detail.py">
+>>>>>>> parent of a2cd370... second form
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1315,6 +1463,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
 =======
@@ -1380,10 +1529,17 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+>>>>>>> parent of a2cd370... second form
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1410,6 +1566,8 @@
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html">
 =======
+=======
+>>>>>>> parent of a2cd370... second form
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1418,6 +1576,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_home.html">
 =======
@@ -1482,20 +1641,33 @@
 <<<<<<< HEAD
         <state relative-caret-position="391">
           <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/smartcities/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+>>>>>>> parent of a2cd370... second form
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/tests.py">
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
+>>>>>>> parent of a2cd370... second form
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="476">
           <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
 =======
@@ -1504,6 +1676,10 @@
 >>>>>>> Stashed changes
         <state relative-caret-position="442">
           <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+=======
+        <state relative-caret-position="340">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+>>>>>>> parent of a2cd370... second form
           <folding>
             <element signature="e#645#677#0" expanded="true" />
           </folding>
@@ -1527,6 +1703,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1600,12 +1777,19 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> parent of a2cd370... second form
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/report_detail.html">
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_form.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         <state relative-caret-position="309">
           <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
@@ -1623,10 +1807,15 @@
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="374">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+>>>>>>> parent of a2cd370... second form
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/urls.py">
 >>>>>>> Stashed changes
@@ -1659,10 +1848,19 @@
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+>>>>>>> parent of a2cd370... second form
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/event_home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1764,6 +1962,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/smartcities/waterevent/templates/waterevent/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+>>>>>>> parent of a2cd370... second form
           <folding />
         </state>
       </provider>

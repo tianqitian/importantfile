@@ -14,6 +14,7 @@
 
 </head>
 <body>
+<<<<<<< HEAD
    <div style="background-image: url('http://www.news1130.com/wp-content/blogs.dir/sites/9/2016/11/29/pipelines-3-e1480465756659.jpg'); background-size: cover;" class="jumbotron text-center">
         <br><br><h1 style="text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;"> <strong>Storm Water</strong></h1>
        <h1 style="text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;"> <strong>Management System</strong></h1>
@@ -24,7 +25,31 @@
    <a href="{% url 'waterevent:reportlist' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">check report </a>
 
 
+=======
+   <div class="jumbotron text-center">
+        <h1> Event Application</h1>
+        <p> List of Event</p>
+   </div>
+>>>>>>> parent of a2cd370... second form
 
+   <div class="container-fluid text-center">
+        <div class="list-group">
+        {% for x in events %}
+            <a href="{% url 'waterevent:detail' x.eventId %}" class="list-group-item" > {{x.type}} {{x.date}} </a>
+            <!--- update -->
+            <a href="{% url 'waterevent:detail-update' x.eventId %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Update Event</a>
 
+<<<<<<< HEAD
+=======
+        {% endfor %}
+
+        </div>
+
+       <!-- button for adding event -->
+        <a href="{% url 'waterevent:add-event' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            add location</a>
+   </div>
+>>>>>>> parent of a2cd370... second form
 </body>
 </html>
