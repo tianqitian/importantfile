@@ -128,7 +128,7 @@ def ReportList(request):
 
 def Report_Update(request, pk, template_name='waterevent/report_form.html'):
     report = get_object_or_404(ObservReport, pk=pk)
-    form = ReportCreate(request.POST or None, instance=reports)
+    form = ReportCreate(request.POST or None, instance=report)
     if form.is_valid():
         form.save()
         return redirect('waterevent:reportList')
@@ -142,6 +142,11 @@ def Report_Delete(request, pk, template_name='waterevent/detail.html'):
         reports.delete()
         return redirect('waterevent:reportList')
     return render(request, template_name, {'object': reports})
+
+
+
+
+
 
 
 def ReportListDelete(request, pk, template_name='waterevent/report_home.html'):

@@ -19,7 +19,7 @@
      </div>
 
     <div class="container-fluid text-center">
-<<<<<<< HEAD
+
         <div class="list-group">
 
         {% for x in report %}
@@ -30,14 +30,16 @@
             <p></p>
         {% endfor %}
         </div>
-    <a href="{% url 'waterevent:index' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a>
+<!--    <a href="{% url 'waterevent:index' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a> -->
 <!-- button for adding report -->
    <a href="{% url 'waterevent:add-report' %}" class="btn btn-success" role="button">
         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
     Add observation report</a>
+<br>
+        <br>
 
-=======
-           {% if report %}
+<!--
+        {% if report %}
             <div class="list-group">
             {% for r in report %}
                {{r.date}} {{r.observName}}
@@ -48,8 +50,11 @@
                 <h2> you have no report</h2>
             {% endif %}
     </div>
+ --->
+
     <a href="{% url 'waterevent:index' %}" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Home Page </a>
->>>>>>> origin/master
+
+
 
 </body>
 </html>
