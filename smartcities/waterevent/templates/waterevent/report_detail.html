@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Waterevent Application</h1>
+        <p>Detailed view of Observation Report</p>
+    </div>
+    <div class="row">
+
+        <!--Detail view-->
+        <div class="container-fluid">
+            <div class="page-header text-center">
+                <h2> <b>Observer Id:</b>  &nbsp; {{ reports.observId}}</h2>
+                <h2> <b>Date:</b>  &nbsp;{{reports.date}}<small></small></h2>
+                <h2> <b>Name of Observer:</b> &nbsp;{{reports.observName}}<small></small></h2>
+                <h2><b>Was there an overflow? </b> {{reports.overflow}}</h2>
+
+            </div>
+
+            <!--- update -->
+            <a href="{% url 'waterevent:report_detail-update' reports.observId %}"> Update Report</a>
+
+            <!--- delete -->
+
+            <form method = "POST" action = "{% url 'waterevent:report_detail-delete' reports.observId %}">
+                {% csrf_token %}
+                <input type="submit" value="Delete Report">
+            </form>
+
+            <h3> <a href="{% url 'waterevent:index' %}" type = "submit"> Home page</a></h3>
+        </div>
+
+    </div>
+
+</body>
+</html>
